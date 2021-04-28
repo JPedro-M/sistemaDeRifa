@@ -1,0 +1,75 @@
+*{
+    background: rgb(144, 53, 197);
+    font-family: Arial, Helvetica, sans-serif;
+}
+body .cabecalho{
+    display: flex;
+    justify-content: space-around;
+    width: 90% auto;
+    margin: 40px auto;
+    padding: 0px 0px;
+    border: 1px solid black;
+    background: rgb(43, 71, 197);
+}
+body .cabecalho .logo{
+    background: rgb(43, 71, 197);
+}
+body .cabecalho .logo img{
+    width: 10%;
+    margin: 0px 40% auto;
+    padding: 20px;
+    background: rgb(43, 71, 197);
+}
+body .cabecalho .titulo{
+    background: rgb(43, 71, 197);
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+.formulario{
+    border: 1px solid black;
+    margin-right: 2050px;
+}
+.formulario input{
+    background: white;
+    width: 150px;
+}
+.formulario input#data{
+    background: white;
+    width: 153px;
+}
+.formulario input#gerar{
+    background: white;
+    width: 50px;
+}
+.formulario label{
+    display: inline-block;
+    width: 200px;
+}
+.rifa table, td{
+    background: white;
+    border: 1px solid black;
+}
+.rifa table tr td .info{
+    width: 200px;
+    transform: rotate(270deg);
+    padding: 10px;
+    background: white;
+}
+.rifa table tr td .info h2{
+    text-align: end;
+    background: white;
+}
+.rifa table tr td .info p{
+    background: white;
+}
+.rifa table tr td .corpo{
+    background: white;
+    width: 500px;
+}
+.rifa table tr td .corpo h1, .titulo, .premio, .obs, .valor, .data, .numero, .rifa table tr td p{
+background: white;
+}
+.rifa table tr td .titulo{
+    text-align: center;
+}
